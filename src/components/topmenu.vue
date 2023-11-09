@@ -3,7 +3,7 @@
     <div class="top" v-show="isActive">
       <nav id="topnav">
         <div id="logo">
-          <img class="logo-img" src="src/assets/img/allay-logo.png"/>
+          <img class="logo-img" src="../assets/img/allay-logo.png"/>
           <router-link to="/" class="logotext">AllayMC</router-link>
         </div>
         <div id="menu">
