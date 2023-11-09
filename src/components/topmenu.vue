@@ -17,10 +17,10 @@
         </div>
         <div id="right-icon">
           <div class="link">
-            <ion-icon name="logo-github" @click="turnOtherWebsite('https://github.com/PowerNukkitX/PowerNukkitX')">
+            <ion-icon name="logo-github" @click="turnOtherWebsite('https://github.com/AllayMC')">
             </ion-icon>
-            <ion-icon name="logo-discord" @click="turnOtherWebsite('https://discord.gg/XXus4FB6qf')"></ion-icon>
-            <ion-icon name="people-outline" @click="turnOtherWebsite('https://jq.qq.com/?_wv=1027&k=FmV7FLaO')">
+            <ion-icon name="logo-discord" @click="turnOtherWebsite('https://discord.gg/y385Q4S2JS')"></ion-icon>
+            <ion-icon name="people-outline" @click="turnOtherWebsite('https://github.com/AllayMC')">
             </ion-icon>
           </div>
           <Lang></Lang>
