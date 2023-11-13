@@ -1,12 +1,11 @@
 export default {
     message: {
         'home-slogan': 'Next-generation minecraft bedrock Server Software',
-        'topmenu-menu1': '首页',
-        'topmenu-menu2': '下载',
-        'topmenu-menu3': '资源',
-        'topmenu-menu4': 'WIKI',
-        'topmenu-menu5': 'API',
-        'topmenu-menu6': '赞助者',
+        'topmenu-menu1': '文档',
+        'topmenu-menu2': '插件中心',
+        'topmenu-menu3': '论坛',
+        'topmenu-menu4': '开发团队',
+        'topmenu-menu5': '赞助者',
         'about-frist': '为什么选择PNX?',
         'about-textcard1-title': '高性能',
         'about-textcard1-content': 'PNX内部处理高度并行化，您无需追求CPU高主频，可以享受多核心CPU带来的巨大性能提升。',

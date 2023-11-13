@@ -18,7 +18,7 @@ export default defineConfig({
     VueI18nPlugin({
       /* options */
       // locale messages resource pre-compile option
-      include: resolve(dirname(fileURLToPath(import.meta.url)), './path/to/src/lang/**'),
+      include: resolve(dirname(fileURLToPath(import.meta.url)), './src/lang/**'),
     })
   ],
   resolve: {
@@ -27,6 +27,11 @@ export default defineConfig({
     }
   },
   css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: '@import "@/assets/css/_variables.scss";',//引入全局scss变量
+      },
+    },
     postcss: {
       plugins: [
         postCssPxToRem({

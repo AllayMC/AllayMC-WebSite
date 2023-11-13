@@ -1,12 +1,11 @@
 export default {
     message: {
         'home-slogan': 'Next-generation minecraft bedrock Server Software',
-        'topmenu-menu1': 'Home',
-        'topmenu-menu2': 'Download',
-        'topmenu-menu3': 'Resource',
-        'topmenu-menu4': 'WIKI',
-        'topmenu-menu5': 'API',
-        'topmenu-menu6': 'Sponsor',
+        'topmenu-menu1': 'Docs',
+        'topmenu-menu2': 'Plugins',
+        'topmenu-menu3': 'Forums',
+        'topmenu-menu4': 'Team',
+        'topmenu-menu5': 'Sponsor',
         'about-frist': 'Why choose PNX?',
         'about-textcard1-title': 'High Performance',
         'about-textcard1-content': "PNX internal processing is highly parallelized, so you don't need to pursue high CPU main frequency and can enjoy the huge performance boost from multi-core CPUs.",

@@ -7,13 +7,11 @@
           <router-link to="/" class="logotext">AllayMC</router-link>
         </div>
         <div id="menu">
-          <router-link to="/download">{{
-            $t("message.topmenu-menu2")
-          }}</router-link>
+          <a href="#">{{ $t("message.topmenu-menu1") }}</a>
+          <a href="#">{{ $t("message.topmenu-menu2") }}</a>
           <a href="#">{{ $t("message.topmenu-menu3") }}</a>
           <a href="#">{{ $t("message.topmenu-menu4") }}</a>
           <a href="#">{{ $t("message.topmenu-menu5") }}</a>
-          <a href="#">{{ $t("message.topmenu-menu6") }}</a>
         </div>
         <div id="right-icon">
           <div class="link">
@@ -146,7 +144,7 @@ function turnOtherWebsite(url) {
         margin-right: 30px;
 
         &:hover {
-          color: rgb(29, 201, 210);
+          color: $theme-color-main;
 
           &:after {
             opacity: 1;

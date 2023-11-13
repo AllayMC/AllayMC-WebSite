@@ -1,11 +1,11 @@
-import { createApp } from 'vue'
-import './assets/css/common.scss'//公共css
+import { createApp } from 'vue';
+import './assets/css/common.scss';//公共scss
 import 'animate.css';//动画css
 import 'typicons.font';//图标文件
 import './utils/rem';
-import i18n from './lang/lang'//导入多语言
-import App from './App.vue'
-import router from './router/index'//导入路由
+import i18n from './lang/lang';//导入多语言
+import App from './App.vue';
+import router from './router/index';//导入路由
 import pinia from './stores/index';//导入pinia
 
 const app = createApp(App)
