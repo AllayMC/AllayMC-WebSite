@@ -34,9 +34,9 @@ function calcRandomArr() {
   const width = document
     .getElementsByTagName("body")[0]
     .getBoundingClientRect().width;
-  if (width >= 1500) num = 40;
-  else if (width <= 800) num = 15;
-  else num = 25;
+  if (width >= 1500) num = 45;
+  else if (width <= 800) num = 25;
+  else num = 30;
   let bubbles = [];
   for (let i = 0, len = num; i < len; ++i) {
     let a = Math.round(Math.random() * 15) + 5;
