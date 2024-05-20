@@ -4,8 +4,8 @@
     <div class="wapper">
       <h1 id="slogan" v-html="$t('message.home-slogan')"></h1>
       <div id="mbuttons">
-        <Mbutton>Download</Mbutton>
-        <Mbutton>Document</Mbutton>
+        <a href="https://github.com/AllayMC/Allay/actions"><Mbutton>Download</Mbutton></a>
+        <a href="https://docs.allaymc.org"><Mbutton>Document</Mbutton></a>
       </div>
     </div>
     <div class="bubbles">
