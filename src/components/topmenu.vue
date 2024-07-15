@@ -7,10 +7,10 @@
           <router-link to="/" class="logotext">AllayMC</router-link>
         </div>
         <div id="menu">
-          <a href="#">{{ $t("message.topmenu-menu1") }}</a>
+          <a href="https://docs.allaymc.org">{{ $t("message.topmenu-menu1") }}</a>
           <a href="#">{{ $t("message.topmenu-menu2") }}</a>
-          <a href="#">{{ $t("message.topmenu-menu3") }}</a>
-          <a href="#">{{ $t("message.topmenu-menu4") }}</a>
+          <a href="https://github.com/orgs/AllayMC/discussions">{{ $t("message.topmenu-menu3") }}</a>
+          <a href="https://github.com/orgs/AllayMC/people">{{ $t("message.topmenu-menu4") }}</a>
           <a href="#">{{ $t("message.topmenu-menu5") }}</a>
         </div>
         <div id="right-icon">
